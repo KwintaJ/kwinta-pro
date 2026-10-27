@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Strona w przygotowaniu.">
+<meta name="color-scheme" content="light dark">
+<title>kwinta.pro</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231f4e5f'/%3E%3Ctext x='32' y='45' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif' font-size='38' font-weight='600' fill='%23ffffff' text-anchor='middle'%3EK%3C/text%3E%3C/svg%3E">
+<style>
+:root {
+    --bg: #faf9f6;
+    --text: #1c1f22;
+    --muted: #5a6168;
+    --accent: #1f4e5f;
+    --line: #d9d6cf;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #15181b;
+        --text: #ebe9e4;
+        --muted: #a3aab1;
+        --accent: #7fb3c4;
+        --line: #2e3439;
+    }
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1.5rem;
+}
+.card {
+    max-width: 36rem;
+    width: 100%;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+    font-size: clamp(2.5rem, 8vw, 4.5rem);
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    line-height: 1.05;
+}
+h1 span { color: var(--accent); }
+.rule {
+    width: 3rem;
+    height: 1px;
+    background: var(--accent);
+    margin: 2rem auto;
+    border: 0;
+}
+h2 {
+    margin: 0 0 0.75rem;
+    font-size: clamp(1.125rem, 2.5vw, 1.375rem);
+    font-weight: 500;
+    letter-spacing: 0.01em;
+}
+p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+footer {
+    padding: 1.5rem;
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.8125rem;
+    border-top: 1px solid var(--line);
+}
+</style>
+</head>
+<body>
+<main>
+    <div class="card">
+        <h1>kwinta<span>.pro</span></h1>
+        <hr class="rule">
+        <h2>Już wkrótce.</h2>
+        <p>Strona jest w przygotowaniu.</p>
+    </div>
+</main>
+<footer>kwinta.pro</footer>
+</body>
+</html>
